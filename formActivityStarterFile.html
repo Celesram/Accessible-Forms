@@ -43,6 +43,34 @@
 					<input type="radio" name="contactPref" id="prefEmail" required>
 					<label for="prefEmail">Email</label>
 				</fieldset>
+				
+				<fieldset>
+					<label for="myState">State</label>
+					<input id="myState" name="myState" type="text" list="state"/>
+					<datalist id="state">
+						<select>
+							<option value="AL"></option>
+							<option value="AK"></option>
+							<option value="AZ"></option>
+							<option value="AR"></option>
+							<option value="AZ"></option>
+							<option value="CA"></option>
+							<option value="CO"></option>
+							<option value="CT"></option>
+							<option value="DE"></option>
+							<option value="FL"></option>
+							<option value="GA"></option>
+							<option value="HI"></option>
+							<option value="ID"></option>
+							<option value="IL"></option>
+							<option value="IN"></option>
+							<option value="IA"></option>
+							<option value="KS"></option>
+							<option value="KY"></option>
+							<option value="LA"></option>
+						</select>
+					</datalist>
+				</fieldset>
 				<label for="Comment">Comment<span class="required">*</span></label>
 				<textarea required></textarea>
 				<input type="submit" name="mySubmit" id="mySubmit">
